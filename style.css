@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+
 h1 {
     font-size: 30px;
     font-family: sans-serif;
@@ -20,16 +21,20 @@ hr {
     margin: 20px;
 }
 
+.sites:hover {
+    color: orange;
+}
+
 .link {
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
 }
 
 img {
     background-size: cover;
     height: 100px;
+    cursor: pointer;
 }
 
 h3 {
@@ -45,9 +50,3 @@ h3 {
        }
 }
 
-/* @media (min-width:480px){
-    .link {
-        display: flex;
-        flex-direction: column;
-       }
-} */
