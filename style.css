@@ -14,6 +14,7 @@ hr {
     height: 2px;
     background-color: black;
     margin-bottom: 2rem;
+    width: 50%;
 }
 
 .sites{
@@ -35,12 +36,18 @@ img {
     background-size: cover;
     height: 100px;
     cursor: pointer;
+    transition: 0.5s ease;
+}
+
+img:hover {
+    height: 125px;
 }
 
 h3 {
     font-size: 15px;
     font-family: sans-serif;
 }
+
 
 @media only screen and (min-width: 320px) and (max-width: 1281px)
 {
@@ -49,4 +56,3 @@ h3 {
         flex-direction: column;
        }
 }
-
