@@ -1,0 +1,38 @@
+.head {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+hr {
+    height: 3px;
+    background-color: black;
+    margin-bottom: 2rem;
+}
+
+.sites{
+    text-align: center;
+    margin: 3rem;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+img {
+    background-size: cover;
+    height: 100px;
+}
+
+h3 {
+    font-size: 15px;
+    font-family: sans-serif;
+}
