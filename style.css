@@ -19,7 +19,7 @@ hr {
 
 .sites{
     text-align: center;
-    margin: 20px;
+    margin: 10px;
 }
 
 .sites:hover {
@@ -48,6 +48,10 @@ h3 {
     font-family: sans-serif;
 }
 
+.biotime {
+    height: 100px;
+    width: 300px;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 1281px)
 {
