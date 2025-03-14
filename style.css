@@ -6,7 +6,7 @@
 }
 
 html, body {
-    height: 100%; /* Ensures full height of the page */
+    height: 100%; 
     margin: 0;
 }
 
@@ -16,8 +16,8 @@ body {
     background: linear-gradient(90deg, #2C3930, #3F4F44, #A27B5C);
     animation: gradientMove 3s ease infinite;
     display: flex;
-    flex-direction: column; /* Align content vertically */
-    justify-content: space-between; /* Push content to top and bottom */
+    flex-direction: column; 
+    justify-content: space-between; 
 }
 
 @keyframes gradientMove {
@@ -34,11 +34,15 @@ body {
 
 img {
     height: 100px;
-    margin: 0 70px;
+    margin: 100px 75px 10px 75px;
     cursor: pointer;
     transition: 0.5s ease;
     animation: scaleIn 1s ease-in-out;
 }
+
+/* .hikvision {
+    margin-top: 100px;
+} */
 
 @keyframes scaleIn {
     0% {
@@ -107,13 +111,14 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     text-align: center;
-    margin: 75px 100px 180px 100px;
+    margin: 10px 100px 180px 100px;
     font-family: sans-serif;
     color: #DCD7C9;
     animation: fadeIn 1s ease;
-    flex-grow: 1; /* Allow container to take up remaining space */
+    flex-grow: 1; 
 }
 
 @keyframes fadeIn {
@@ -151,7 +156,7 @@ hr {
 
 .sites:hover {
     color: #A27B5C;
-    transform: scale(1.2); /* Slight scaling effect for better hover interaction */
+    transform: scale(1.2); 
 }
 
 .footer {
@@ -172,25 +177,25 @@ hr {
     font-size: 13px;
 }
 
-/* Mobile responsiveness */
+
 @media (max-width: 768px) {
     .container {
-        flex-direction: column; /* Stack items vertically on small screens */
+        flex-direction: column; 
         margin: 10px;
         margin-bottom: 150px;
     }
 
     img {
-        margin: 50px; /* Reduce the margin on smaller screens */
-        height: 80px; /* Adjust image height for smaller screens */
+        margin: 50px; 
+        height: 80px; 
     }
 
     h1 {
-        font-size: 2.5em; /* Slightly smaller font size for mobile */
+        font-size: 2.5em; 
     }
 
     .sites {
-        font-size: 1.2em; /* Adjust site links size */
+        font-size: 1.2em;
     }
 
     footer {
